@@ -1,0 +1,70 @@
+/* Menambahkan properti tambahan dan modifikasi pada nav */
+nav {
+    background: #20A759;
+    color: #fff;
+    padding: 10px;
+    /* Menambahkan properti tambahan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberi bayangan pada nav */
+    border-radius: 8px; /* Membuat sudutnya melengkung */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    /* Menambahkan properti tambahan */
+    font-weight: bold; /* Membuat teks lebih tebal */
+    transition: background 0.3s ease; /* Animasi halus ketika background berubah */
+}
+nav .active,
+nav a:hover {
+    background: #0B6B3A;
+    /* Menambahkan properti tambahan */
+    border-radius: 4px; /* Membuat hover lebih rapi dengan sudut melengkung */
+}
+
+/* ID Selector */
+#intro {
+    background: #418fb1;
+    border: 1px solid #099249;
+    min-height: 100px;
+    padding: 10px;
+    /* Menambahkan properti tambahan */
+    border-radius: 10px; /* Melengkungkan sudut elemen intro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan ringan */
+}
+#intro h1 {
+    text-align: left;
+    border: 0;
+    color: #fff;
+    /* Menambahkan properti tambahan */
+    font-family: 'Arial', sans-serif; /* Mengganti jenis font */
+    letter-spacing: 1px; /* Menambahkan jarak antar huruf */
+}
+
+/* Class Selector */
+.button {
+    padding: 15px 20px;
+    background: #bebcbd;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    /* Menambahkan properti tambahan */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    transition: background 0.3s ease, transform 0.3s ease; /* Animasi transisi */
+}
+.button:hover {
+    background: #9e9a9c; /* Mengubah warna latar saat hover */
+    transform: scale(1.05); /* Memperbesar tombol saat hover */
+}
+
+.btn-primary {
+    background: #E42A42;
+    /* Menambahkan properti tambahan */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); /* Memberi bayangan pada tombol */
+    transition: background 0.3s ease, box-shadow 0.3s ease; /* Transisi bayangan */
+}
+.btn-primary:hover {
+    background: #c91f35; /* Mengubah warna latar saat hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Membuat bayangan lebih tebal saat hover */
+}
